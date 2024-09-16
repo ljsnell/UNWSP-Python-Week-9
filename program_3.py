@@ -8,3 +8,12 @@
 # It should handle any IOError exceptions that are raised.
 # It should handle any ValueError exceptions that are raised when the items that are read from the file 
 # are converted to a number.
+def sum_numbers_from_file():
+    ######################
+    # Add your code here #
+    ######################
+    print('In the sum_numbers_from_file function')
+
+# You don't need to change anything below this line:
+if __name__ == '__main__':
+    sum_numbers_from_file()
