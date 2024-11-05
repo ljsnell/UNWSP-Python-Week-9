@@ -9,6 +9,7 @@ def test_sum():
     print(output)
     correct_count_found = False
     for item in output:
+        item = str(item)
         if "5153" in item or "5,153" in item or "5,153.00" in item or "5153.00" in item:
             correct_count_found = True
 
